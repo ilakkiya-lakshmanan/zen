@@ -1,0 +1,4 @@
+new tags to define semantic/structural elements, text-formatting instructions, form controls, input types, and more.
+new semantic elements are <header>,<article>,<aside>,<section>,<footer>.
+new tags provides better functionality and a neater look.
+<header>-

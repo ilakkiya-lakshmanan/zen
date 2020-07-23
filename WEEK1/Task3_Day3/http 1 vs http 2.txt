@@ -1,0 +1,6 @@
+HTTP 1:HTTP is a top-level application protocol that exchanges information between a client computer and a local or remote web server.
+In this process, a client sends a text-based request to a server by calling a method like GET or POST. 
+In response, the server sends a resource like an HTML page back to the client.
+HTTP 2: 
+HTTP/2 can send multiple requests for data in parallel over a single TCP connection.
+ This is the most advanced feature of the HTTP/2 protocol because it allows you to download web files asynchronously from one server.
