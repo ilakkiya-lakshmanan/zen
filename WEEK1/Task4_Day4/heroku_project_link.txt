@@ -1,1 +1,1 @@
-https://ilakkiya-guvi-project-2.herokuapp.com/posts
+https://ilakkiya-guvi-project-2.herokuapp.com
