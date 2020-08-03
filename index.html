@@ -1,0 +1,380 @@
+<html>
+
+<head>
+	<title>PanCard Form</title>
+</head>
+
+<body>
+	<h3>
+		<center> Request For New PAN Card Or/And Changes Or Correction in PAN Data</center>
+	</h3>
+	<table border="1" cellpadding="0" cellspacing="0" width="100%">
+
+		<tbody>
+			<tr>
+				<td colspan="2" width="98%">Whether citizen of India
+					Yes <input type="radio" name="PAN" value="Y">
+					No <input type="radio" name="PAN" value="N">
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					Permanent Account Number(PAN)
+					<input type="text" value="" size="20" maxlength="10">
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td colspan="2">
+					1. Name
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="2"><b> Title</b>
+					Shri/Mr
+					<input type="radio" name="PAN_Title" value="1">
+					Smt./Mrs.
+					<input type="radio" name="PAN_Title" value="2">
+					Kumari/Ms
+					<input type="radio" name="PAN_T" value="3">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="2">
+					<table width="100%" cellpadding="0" cellspacing="0">
+						
+							<tr>
+								<td><b>Last Name/Surname</b><br><input type="text" value="" size="15" maxlength="25"></td>
+								<td><b>First Name</b><br><input type="text" value="" size="15" maxlength="25"></td>
+								<td><b>Middle Name</b><br><input type="text" value="" size="15" maxlength="25"></td>
+							</tr>
+						
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="2">
+					<b> Name as you would like it printed on the card</b>
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td colspan="2">
+					<input type="text" value="" size="40" maxlength="85">
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td colspan="2">
+					<b>Details of Parents. </b>
+					(Prefix like Shri, Smt, Kumari,
+					Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed.)
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<b>Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only
+					</b><br>
+
+				</td>
+				<td colspan="2">
+					Yes
+					<input type="radio" name="test" value="S" >
+					No <input type="radio" name="test" value="N">
+
+					<br>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="checkbox" value="Y">
+				</td>
+				<td colspan="2">
+					<b id="fname">
+						*Father's Name
+					</b>
+					(Mandatory field. Even married
+					women should give father's name only.)
+				</td>
+			</tr>
+
+
+
+
+			<tr>
+				<td></td>
+				<td colspan="2">
+					<table width="100%" cellpadding="0" cellspacing="0">
+						<tbody>
+							<tr>
+								<td><b>Last Name/Surname</b><br><input type="text" value="" id="FLName" size="15" maxlength="25"></td>
+								<td><b>First Name</b><br><input type="text" value="" id="FFName" size="15" maxlength="25"></td>
+								<td><b>Middle Name</b><br><input type="text" value="" id="FMName" size="15" maxlength="25"></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="checkbox" value="Y">
+				</td>
+				<td colspan="2">
+					<b id="mname"></b>
+					Mother's Name(This field is
+					optional.)
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td colspan="2">
+					<table width="100%" cellpadding="0" cellspacing="0">
+						<tbody>
+							<tr>
+								<td><b>Last Name/Surname</b><br><input type="text" size="15" maxlength="25">
+								</td>
+								<td><b>First Name</b><br><input type="text"  size="15" maxlength="25">
+								</td>
+								<td><b>Middle Name</b><br><input type="text"  size="15" maxlength="25">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				 <TD> 
+            <INPUT TYPE=checkbox NAME=PAN_PARENT_NM_CHK VALUE="Y" >
+            </TD>-->
+				<td></td>
+				<td>
+					<b>
+						4. Select Parent name which is to be printed on the card
+					</b><br>
+					(In case no option is provided
+					then PAN card will be issued with father's name)
+				</td>
+
+				<td>
+					Father Name <input type="radio" name="pan"  id="Frname">
+
+					Mother Name<input type="radio"name="pan"  id="Mrname">
+
+				</td>
+			</tr>
+			<tr>
+				<td valign="TOP">
+					<input type="checkbox" value="Y" id="PAN_BRTH_CHK">
+				</td>
+				<td>
+					<b>
+
+						5. Date of Birth/Incorporation/Agreement/Partnership<br>
+						or Trust Deed/Formation of Body of Individuals/<br>
+						Association of Persons
+					</b></td>
+				<td>
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tbody>
+							<tr>
+								<td valign="TOP">
+									<br>
+									<select>
+										<option value=""> DD</option>
+										<option value="01"> 1</option>
+										<option value="02"> 2</option>
+										<option value="03"> 3</option>
+										<option value="04"> 4</option>
+										<option value="05"> 5</option>
+										<option value="06"> 6</option>
+										<option value="07"> 7</option>
+										<option value="08"> 8</option>
+										<option value="09"> 9</option>
+										<option value="10"> 10</option>
+										<option value="11"> 11</option>
+										<option value="12"> 12</option>
+										<option value="13"> 13</option>
+										<option value="14"> 14</option>
+										<option value="15"> 15</option>
+										<option value="16"> 16</option>
+										<option value="17"> 17</option>
+										<option value="18"> 18</option>
+										<option value="19"> 19</option>
+										<option value="20"> 20</option>
+										<option value="21"> 21</option>
+										<option value="22"> 22</option>
+										<option value="23"> 23</option>
+										<option value="24"> 24</option>
+										<option value="25"> 25</option>
+										<option value="26"> 26</option>
+										<option value="27"> 27</option>
+										<option value="28"> 28</option>
+										<option value="29"> 29</option>
+										<option value="30"> 30</option>
+										<option value="31"> 31</option>
+									</select>
+								</td>
+								<td valign="TOP">
+					
+									<select>
+										<option value=""> MM</option>
+										<option value="01"> JAN</option>
+										<option value="02"> FEB</option>
+										<option value="03"> MAR</option>
+										<option value="04"> APR</option>
+										<option value="05"> MAY</option>
+										<option value="06"> JUN</option>
+										<option value="07"> JUL</option>
+										<option value="08"> AUG</option>
+										<option value="09"> SEP</option>
+										<option value="10"> OCT</option>
+										<option value="11"> NOV</option>
+										<option value="12"> DEC</option>
+									</select>
+								</td>
+								<td valign="TOP">
+				
+									<input type="text" value="" size="4" maxlength="4">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+
+
+
+			<tr>
+				<td>
+					<input type="checkbox" value="Y">
+				</td>
+				<td>
+					<b>
+						6. Gender
+					</b>
+				</td>
+				<td>
+					Male <input type="radio" name="pan" value="M">
+
+					Female <input type="radio" name="pan"value="F">
+
+					TransGender <input type="radio" value="T">
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" value="Y">
+				</td>
+				<td colspan="2">
+					<b> 7. Photo Mismatch</b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" value="Y">
+				</td>
+				<td colspan="2">
+					<b> 8. Signature Mismatch</b>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="checkbox" value="Y">
+				</td>
+				<td>
+					<b>
+						*9. Address for Communication
+					</b>
+				</td>
+				<td>
+					Residential
+					<input type="radio" name="pan" value="R">
+
+					Office
+					<input type="radio" name="pan" value="O">
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><b>Office Name</b><i> (to be filled only in case of office
+							address)</i></td>
+				<td><input type="text" value="" size="30" maxlength="64"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><b>Flat/Door/Block No.</b></td>
+				<td><input type="text"  size="25" maxlength="25"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><b>Name of Premises/Building/Village</b></td>
+				<td><input type="text" size="25" maxlength="25"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><b>Road/Street/Lane/Post Office</b></td>
+				<td><input type="text"  size="25" maxlength="25"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><b>Area/Locality/Taluka/Sub-Division</b></td>
+				<td><input type="text"  size="25" maxlength="25"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><b>Town/City/District</b></td>
+				<td><input type="text"  size="25" maxlength="25"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><b>State/Union Territory</b></td>
+				<td>
+					<select>
+						<option value="">-- Please Select --</option>
+						<option value="1"> TamilNadu</option>
+						<option value="2"> Karnataka</option>
+	
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><b>PIN</b> <i>(Indicating PIN is mandatory)</i></td>
+				<td><input type="text"  value="" size="6" maxlength="6"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><b>Country</b></td>
+				<td>
+					<select id="COUNTRY" >
+						<option value="IN">-- INDIA --</option>
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><b>Zip</b></td>
+				<td><input type="text" size="6" maxlength="6"></td>
+			</tr>
